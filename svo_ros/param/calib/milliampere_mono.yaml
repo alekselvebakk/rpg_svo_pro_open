@@ -1,0 +1,27 @@
+cameras:
+- camera:
+    distortion:
+      parameters:
+        cols: 1
+        rows: 4
+        data: [-0.307921, 0.095526 , 0.001673 , 0.000759]
+      type: radial-tangential
+    image_height: 1024
+    image_width: 1224
+    intrinsics:
+      cols: 1
+      rows: 4
+      data: [903.53939, 904.43234, 609.48682, 525.27692]
+    label: cam0
+    line-delay-nanoseconds: 0
+    type: pinhole
+  T_B_C:
+    cols: 4
+    rows: 4
+    data: [ 1., 0., 0., 0.,
+            0., 1., 0., 0.,
+            0., 0., 1., 0.,
+            0., 0., 0., 1.]
+  serial_no: 0
+  calib_date: 0
+label: milliampere_camera
